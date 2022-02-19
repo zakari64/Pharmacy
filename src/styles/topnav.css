@@ -1,0 +1,30 @@
+.nav  {
+    display: grid;
+    grid-template-columns : 1fr 1fr 1fr;
+    padding-left: 10px;
+    gap : 20%;
+    height : 120px;
+    padding-right: 10px;
+    width : 75%;
+    margin: auto;
+
+}
+.nav .social {
+    display: block;
+     margin: auto;
+}
+.nav .social img {
+padding : 10px   
+}
+
+.nav .logo {
+    display: block;
+    margin: auto;
+}
+.nav .search-area {
+    display: block;
+    margin: auto;
+}
+.nav .search-area img {
+    padding : 15px
+}

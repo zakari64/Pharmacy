@@ -1,0 +1,43 @@
+.testimonial{
+    width: 100%;
+    height: 60vh;
+    margin-top: 100px;
+    
+}
+
+.testimonial .overlay{
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(171,129,247,0.7903362028405112) 0%, rgba(228,223,251,0.7147059507396709) 100%); 
+}
+.testimonial .container .contenu{
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 100px;
+}
+.testimonial .container .contenu img{
+    width: 100px;
+    border-radius: 40%;
+}
+
+.owl-theme .owl-nav [class*='owl-'] {
+    display: none;
+}
+
+/*responsive*/
+@media(max-width: 976px){
+    .cours .container .title .title1{
+        font-size: 25px;
+        color: #0e1133;
+        text-transform: capitalize;
+        font-family: "Hind", sans-serif;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 50px;
+    }
+}

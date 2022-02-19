@@ -1,12 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+
 import React from 'react';
-import Sidebar from './components/Sidebar';
+import Topnav from './components/Topnav';
+import Navb from './components/Navb';
 
 function App() {
   return (
     <div className="App">
-     <Sidebar />
+     <Topnav />
+     <Navb />
     </div>
   );
 }
