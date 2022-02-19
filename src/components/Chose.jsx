@@ -1,10 +1,10 @@
 import React from "react";
 import "../styles/chose.css";
-import img1 from "../images/diamant.png";
-import img2 from "../images/cloud.png";
-import img3 from "../images/satisfaction.png";
-import img4 from "../images/price-tag.png";
-function Chose() {
+import img1 from "../assets/images/diamant.png";
+import img2 from "../assets/images/cloud.png";
+import img3 from "../assets/images/satisfaction.png";
+import img4 from "../assets/images/price-tag.png";
+function Chose() { 
   return (
     <section className="chose">
       <div className="max-width">
