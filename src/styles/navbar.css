@@ -5,9 +5,10 @@ nav {
 nav .menu {
   display : flex ;
   flex-direction : row;
-  padding : 15px;
   margin: auto;
   width : 40%;
+  padding : 15px;
+
 }
 nav .menu ul {
     display : flex;
@@ -18,12 +19,15 @@ nav .menu ul {
 nav .menu li {
     text-decoration: none;
     list-style: none;
+
 }
 nav .menu li a {
     text-decoration: none;
     color : rgb(255, 255, 255);
+    padding : 15px;
+
 }
 nav .menu li :hover {
-    border-bottom: 1.5px solid white;
-    transition : 0.5s
+background-color: #085805;
+transition : 0.5s
 }

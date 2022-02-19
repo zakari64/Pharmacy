@@ -2,9 +2,12 @@
     width: 100%;
     height: 60vh;
     margin-top: 100px;
+    background-image: url('../assets/images/s2.jpeg');
     
 }
-
+.testimonial .img-testimonial img{
+width : 30% ;
+}
 .testimonial .overlay{
     width: 100%;
     height: 100%;
@@ -25,6 +28,27 @@
     border-radius: 40%;
 }
 
+.testimonial .container .contenu .text{
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.testimonial .container .contenu .nom{
+    font-family: "Hind", sans-serif;
+    color: white;
+    margin-top: 0px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.testimonial .container .contenu .domaine{
+    font-family: "Hind", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 20px;
+    color: #ffffff;
+}
 .owl-theme .owl-nav [class*='owl-'] {
     display: none;
 }
